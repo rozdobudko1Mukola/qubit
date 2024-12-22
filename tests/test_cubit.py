@@ -1,7 +1,7 @@
 from playwright.sync_api import Page, expect
 
 
-BASE_URL = "http://127.0.0.1:8000/cubit/2-index.html"
+BASE_URL = "http://127.0.0.1:8000/cubit/index.html"
 
 def test_cube(page: Page):
     page.goto(BASE_URL)
