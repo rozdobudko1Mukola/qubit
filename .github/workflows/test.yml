@@ -29,4 +29,4 @@ jobs:
           cd cubit
           python -m http.server 8000 &
           cd ..
-          pytest -v
+          pytest -v --slowmo=1000
