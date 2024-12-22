@@ -26,7 +26,5 @@ jobs:
 
       - name: Run tests
         run: |
-          cd cubit
           python -m http.server 8000 &
-          cd ..
           pytest -v --slowmo=1000
